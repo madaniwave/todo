@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: aqua;
+    padding: 20px;
+}
+
+.kontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#input-tugas {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 1px solid #add;
+}
+
+#tombol-tambah {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #4acf4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#daftar-tugas {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.item-tugas {
+    background: #9f9f9f;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol-hapus {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

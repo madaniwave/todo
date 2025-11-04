@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.kontainer {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+/*
+#ffffff << hex color
+rgb() << red green blue
+rgba() << red green blue opacity
+*/
+
+body.dark {
+    background: #060c0c;
+    color: #ededed;
+}
+
+body.dark .kontainer {
+    background: #23272f;
+    color: #ededed;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+

@@ -1,0 +1,115 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fb;
+  text-align: center;
+  padding: 60px;
+} */
+
+/* Kotak utama (hero section) */
+/* .hero {
+  background-color: gray;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: auto;
+} */
+
+/* Teks besar */
+/* .judul {
+  font-family: 'Courier New', monospace;
+  font-size: 28px;
+  color: #222;
+  line-height: 1.5;
+} */
+
+/* Deskripsi di bawah judul */
+/* .deskripsi {
+  color: #555;
+  margin-top: 20px;
+  font-size: 14px;
+} */
+
+/* Tombol biru */
+/* #tombol {
+  background-color: #2f6bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+/* Efek saat hover tombol */
+/* #tombol:hover {
+  background-color: #1f4fd6;
+} */
+
+/* === Gaya umum halaman === */
+body {
+  font-family: 'Press Start 2P', cursive; /* font pixel */
+  background-color: white;
+  color: #222;
+  text-align: center;
+  padding: 50px;
+}
+
+/* === Container utama === */
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* === Logo di atas === */
+.logo {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* === Judul besar === */
+.judul {
+  font-size: 18px;
+  line-height: 2;
+  color: #1a1a1a;
+}
+
+/* === Emoji dalam judul === */
+.emoji {
+  font-size: 25px;
+  background: #e0e9ff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px #aac0ff;
+}
+
+/* === Paragraf deskripsi === */
+.deskripsi {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+/* === Tombol === */
+#tombol {
+  margin-top: 30px;
+  background-color: #337dff;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efek hover tombol */
+#tombol:hover {
+  background-color: #1f5dd9;
+  transform: scale(1.05);
+}
